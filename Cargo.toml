@@ -1,0 +1,15 @@
+[package]
+name = "QuantumPass"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }  # CLI Argument Parsing
+sled = "0.34"  # Key-Value Storage
+rusqlite = { version = "0.29", features = ["bundled"] }  # SQLite (alternative storage)
+ring = "0.16"  # Cryptographic Functions
+aes-gcm = "0.10"  # AES-GCM encryption
+argon2 = "0.5"  # Password Hashing
+rand = "0.8"  # Random Password Generation
+arboard = "3.2"  # Clipboard Support
+dialoguer = "0.11"  # User prompts for password confirmation

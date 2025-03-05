@@ -4,6 +4,10 @@ A simple password manager that uses post quantum cryptography to store passwords
 
 If some day quantum computers become a reality, the passwords stored in this password manager will still be secure.
 
+## Contributing
+
+If you would like to contribute to this project, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file. We also have a To-Do list in the [TODO.md](TODO.md) file.
+
 ## Features
 
 - Post-Quantum cryptography

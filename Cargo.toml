@@ -7,7 +7,7 @@ edition = "2021"
 clap = { version = "4", features = ["derive"] }  # CLI Argument Parsing
 sled = "0.34"  # Key-Value Storage
 rusqlite = { version = "0.29", features = ["bundled"] }  # SQLite (alternative storage)
-ring = "0.16"  # Cryptographic Functions
+ring = "0.17"  # Cryptographic Functions
 aes-gcm = "0.10"  # AES-GCM encryption
 argon2 = "0.5"  # Password Hashing
 rand = "0.8"  # Random Password Generation

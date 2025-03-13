@@ -2,7 +2,7 @@
 
 ## Main Features
 
-- [ ] Implement generate new random password.
+- [x] Implement generate new random password.
 - [ ] Implement setting a master password.
 - [ ] Unlock the password manager with the master password in the command line session.
 - [ ] Implement store password with the account name and domain/app.
